@@ -82,7 +82,7 @@ echo "-------------------------------------------------" >> resultado
 
 echo "sl" | ./hsh 2>> resultado
 echo "-------------------------------------------------" >> resultado
-echo "sh: 21: sl: not found" | sh 2>> resultado
+echo "sl" | sh 2>> resultado
 
 echo "">> resultado
 echo "">> resultado
