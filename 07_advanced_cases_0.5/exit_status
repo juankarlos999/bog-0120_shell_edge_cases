@@ -16,7 +16,7 @@ $SLEEP $SLEEPSECONDS
 
 # check the result
 if [ $match -eq 98 ]; then
-    print_ok
+    print_ok_b
 else
     print_ko
 fi

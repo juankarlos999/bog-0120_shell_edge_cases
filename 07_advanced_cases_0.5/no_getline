@@ -21,7 +21,7 @@ nmatch=`cat $LTRACEOUTPUTFILE | grep getline | wc -l`
 if [ $nmatch -eq 1 ]; then
     print_ko
 else
-    print_ok
+    print_ok_b
 fi
 
 # clean up

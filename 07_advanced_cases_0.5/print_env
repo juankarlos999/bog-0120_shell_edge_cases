@@ -18,7 +18,7 @@ $SLEEP $SLEEPSECONDS
 if [ -s $ERROROUTPUTFILE ]; then
     print_ko
 else
-    print_ok
+    print_ok_b
 fi
 
 # clean up

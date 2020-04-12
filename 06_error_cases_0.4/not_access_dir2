@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Check if not found error is correct
+# Checks error message for permission denied
 
 command="/bin/"
 

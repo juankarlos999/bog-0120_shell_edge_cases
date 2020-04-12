@@ -31,6 +31,21 @@ function print_ok()
 }
 
 #######################################
+# Print OK in blue, followed by a new line
+# for advanced tasks
+# Globals:
+#   None
+# Arguments:
+#   None
+# Returns:
+#   None
+#######################################
+function print_ok_b()
+{
+    echo -e "[\033[1;36mOK\033[37m]"
+}
+
+#######################################
 # Kill the shell in a clean way and remove temporary files
 # Globals:
 #   SHELL
