@@ -4,7 +4,9 @@ TESTDIR="."
 R=$RANDOM
 OUTPUTFILE="checker_output_$R"
 ERROROUTPUTFILE="checker_error_output_$R"
-SHELL="../shell"
+###########################################
+SHELL="YOUR_SHELL_LOCATION"
+###########################################
 SH="/bin/sh"
 #SHELL="/bin/sh"
 SLEEP=`which sleep`

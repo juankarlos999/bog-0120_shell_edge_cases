@@ -16,7 +16,7 @@ $SLEEP $SLEEPSECONDS
 
 
 # check the result
-echo "$SHELL: 1: /bin: Permission denied" > your_output
+echo "$SHELL: 1: /bin/: Permission denied" > your_output
 diff -q $ERROROUTPUTFILE your_output
 match=$?
 if [ $match -eq 0 ]; then

@@ -14,9 +14,6 @@ match=$?
 # wait a little bit
 $SLEEP $SLEEPSECONDS
 
-
-echo $match
-
 # check the result
 if [ $match -eq 98 ]; then
     print_ok
