@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Checks if throws permission denied
+# Check that the error message is correct
 
 command=". ."
 
