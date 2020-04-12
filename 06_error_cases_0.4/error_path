@@ -21,10 +21,6 @@ echo -n "$SHELL: 1: " > respuesta
 echo -n $(cat path_route) >> respuesta
 echo ": not found" >> respuesta
 
-cat respuesta
-echo "--------------------------"
-cat youroutput
-
 # Check the result
 diff -q youroutput respuesta
 math=$?
