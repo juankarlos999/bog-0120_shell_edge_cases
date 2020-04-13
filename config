@@ -8,7 +8,7 @@ ERROROUTPUTFILE="checker_error_output_$R"
 ################ EXAMPLE ##################
 ########### SHELL="../shell" ##############
 ###########################################
-SHELL="your_shell"
+SHELL="../shell"
 ###########################################
 SH="/bin/sh"
 SLEEP=`which sleep`

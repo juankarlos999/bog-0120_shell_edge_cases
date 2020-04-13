@@ -20,8 +20,7 @@ Usage `./check_simple_shell.bash`
 | ------ | ------ | ------ |
 | Absolute paths | [01_simple_shell_0.1](./01_simple_shell_0.1) | `/bin/ls` |
 | Random | [02_simple_shell_0.1.1](./02_simple_shell_0.1.1) | `.` |
-| Arguments | [03_simple_shell_0.2](./03_simple_shell_0.2) | `/bin/ls -l /tmp` |
-| comments | [04_simple_shell_0.1](./04_simple_shell_0.1) | `/bin/ls -l ##a` |
+| Arguments | [03_simple_shell_0.2](./03_simple_shell_0.2) | `/bin/ls -l /tmp` 
 | Paths | [05_path_cases_0.3](./05_path_cases_0.3) | `ls` |
 | Error | [06_error_cases_0.4](./06_error_cases_0.4) | `./handled_error` |
-| Advanced | [07_advanced_cases_0.5](./07_advanced_cases_0.5) | `exit 98` |
+| Advanced | [07_advanced_cases_0.5](./07_advanced_cases_0.5) | `/bin/ls -l ##a` |

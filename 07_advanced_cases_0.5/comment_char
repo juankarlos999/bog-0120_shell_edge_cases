@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Just check if help runs
+# Test if the shell handles the # character
 
-command="help"
+command="/bin/ls -l ##a"
 tmp_file="checker_tmp_file_$RANDOM"
 
 # clean up
@@ -20,7 +20,7 @@ $SLEEP $SLEEPSECONDS
 # check the result
 nmatch=`cat $OUTPUTFILE | grep -c "$tmp_file"`
 if [ $nmatch -eq 1 ]; then
-	   print_ok
+	   print_ok_b
 else
 	   print_ko
 fi
